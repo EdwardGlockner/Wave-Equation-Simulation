@@ -17,3 +17,5 @@ In the file Assignment6.m we solve the wave equation with Central Difference 2, 
 In the file Assignment7.m we analyze the converegence rate of central difference 2, to verify that its' accuracy is of order 2. 
 
 In the file Assignment8.m we solve the wave equation on a plane, for both Neumann and Dirichlet boundary conditions using Central Difference of order 2. This is done using the function CD2_2D.m, and the functions animation_3D.m and plot_snapshot_3D are used to visualize the results. 
+
+In the folder "Figurer" you can find different plots, and simulations of the project. 
