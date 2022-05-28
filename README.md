@@ -2,7 +2,7 @@
 
 This is the final project in the course Scientific Computing II at Uppsala University, Sweden. In this project we solve the wave equation in both the 1 dimensional case (a string) and the 2d dimensional case (a plane) using the numerical methods Runge Kutta of fourth order and Central Difference of second order. We analyze both Neumann and Dirichlet boundary conditions. 
 
-By obtaining discrete spatial finite difference approximations of the wave equation, the equation transforms into an initial-value problem (IVP). This IVP can be solved fairly easiliy with the use of numerical approximation methods. The files Assignment1-Assignment7 treats the wave equation in 1 dimension, and Assignment8 solves the wave equation in 2 dimensions. 
+By obtaining discrete spatial finite difference approximations of the wave equation, the equation transforms into an initial-value problem (IVP). To get the discretisation matrixes we use the function FSBP4.m, provided with the course administrator. This IVP can be solved fairly easiliy with the use of numerical approximation methods. The files Assignment1-Assignment7 treats the wave equation in 1 dimension, and Assignment8 solves the wave equation in 2 dimensions. 
 
 In the file Assignment1.m we analyze the IVP:s eigenvalues for the case with Dirichlet boundary condition. We plot both the analytical and the numerical solutions. 
 
