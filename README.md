@@ -46,8 +46,7 @@ In this file, Assignment2.m, we find the biggest eigenvalues for Neumann and Dir
 <!-- Assignment 3 -->
 ### Assignment 3
 
-In this file, Assignment3.m, we solve the wave equation using Runge Kutta 4 using both Neumann and Dirichlet boundary condition.
-
+In this file, Assignment3.m, we solve the wave equation using Runge Kutta 4 using both Neumann and Dirichlet boundary condition. 
 
 -----------
 <!-- Assignment 4 -->
@@ -65,6 +64,13 @@ In this file, Assignment4.m, we analyze the convergence rate of Runge Kutta 4, t
 
 In this file, Assignment6.m, we solve the wave equation using Central Difference 2.
 
+Below are snapshots of the wave equation at different times with Dirichlet boundary condition:
+
+<div class="align-center"> 
+  <img src="https://github.com/EdwardGlockner/Wave-Equation-Simulation/blob/main/Assignment%206/Images/Ass6_D_0.2.png" width="410" height="350"/>
+  <img src="https://github.com/EdwardGlockner/Wave-Equation-Simulation/blob/main/Assignment%206/Images/Ass6_D_0.7.png" width="410" height="350"/>
+</div>
+
 -----------
 <!-- Assignment 7 -->
 ### Assignment 7
@@ -76,6 +82,18 @@ In this file, Assignment7.m, we analyze the converegence rate of central differe
 ### Assignment 8
 
 In this file, Assignment8.m, we solve the wave equation on a plane for both Neumann and Dirichlet boundary conditions using Central Difference of order 2. 
+
+Below are snapshots of the wave equation at different times with Dirichlet boundary condition:
+
+<div class="align-center"> 
+  <img src="https://github.com/EdwardGlockner/Wave-Equation-Simulation/blob/main/Assignment%208/Images/Ass8_D_0.0.png" width="410" height="350"/>
+  <img src="https://github.com/EdwardGlockner/Wave-Equation-Simulation/blob/main/Assignment%208/Images/Ass8_D_1.png" width="410" height="350"/>
+</div>
+
+<div class="align-center"> 
+  <img src="https://github.com/EdwardGlockner/Wave-Equation-Simulation/blob/main/Assignment%208/Images/Ass8_D_2.png" width="410" height="350"/>
+  <img src="https://github.com/EdwardGlockner/Wave-Equation-Simulation/blob/main/Assignment%208/Images/Ass8_D_10.png" width="410" height="350"/>
+</div>
 
 <!-- Getting Started -->
 ## Getting Started
@@ -91,7 +109,7 @@ Since this project is a MATLAB project, an active MathWorks license is needed to
 Clone the project
 
 ```bash
-  git clone https://github.com/EdwardGlockner/Pricing-of-Financial-Options.git
+  git clone https://github.com/EdwardGlockner/Wave-Equation-Simulation.git
 ```
 
 Go to the project directory
@@ -100,7 +118,7 @@ Go to the project directory
   cd my-project
 ```
 
-and navigate to one of the assignment folders. Open the folder in MATLAB, and run the .mlx live scripts. If you don't have the ability to run MATLAB, you can see the .pdf-files.
+and navigate to one of the assignment folders. Open the folder in MATLAB, and run Assignment{x},m file. If you don't have the ability to run MATLAB, you can see the .pdf-file.
 
 
 <!-- Contact -->
@@ -108,7 +126,7 @@ and navigate to one of the assignment folders. Open the folder in MATLAB, and ru
 
 Edward Glöckner - [@linkedin](https://www.linkedin.com/in/edwardglockner/) - edward.glockner5@gmail.com
 
-Project Link: [https://github.com/EdwardGlockner/Pricing-of-Financial-Options](https://github.com/EdwardGlockner/Pricing-of-Financial-Options)
+Project Link: [https://github.com/EdwardGlockner/Wave-Equation-Simulation](https://github.com/EdwardGlockner/Wave-Equation-Simulation)
 
 
 <!-- Links -->
@@ -116,5 +134,7 @@ Project Link: [https://github.com/EdwardGlockner/Pricing-of-Financial-Options](h
 
 Here are some helpful links:
 
- - [CEV-model](https://en.wikipedia.org/wiki/Constant_elasticity_of_variance_model)
+ - [Wave equation](https://en.wikipedia.org/wiki/Wave_equation)
+ - [Finite difference](https://en.wikipedia.org/wiki/Finite_difference)
+ - [Runge kutta](https://en.wikipedia.org/wiki/Runge–Kutta_methods)
 
