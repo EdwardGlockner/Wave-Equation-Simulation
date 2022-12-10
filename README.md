@@ -1,3 +1,4 @@
+# Simulation of the wave equation
 # Table of Contents
 - [About the Project](#about-the-project)
   * [Description](#description)
